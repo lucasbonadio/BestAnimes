@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(44, 43, 43);
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo { 
+    margin-left: 5px;
+    color: rgb(2, 9, 100);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+     color: #fff;
+}
+
+/* Filme Principal */
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(19, 18, 18, 0.5),rgba(134, 133, 133, 0.5)), url('https://images4.alphacoders.com/789/thumbbig-789685.webp');
+    height: 400px;
+    background-size: cover; 
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+
+}      
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    color: white;
+}
+
+.filme-principal .titulo {
+    font-size: 40px;
+    color: white;
+}
+
+.filme-principal .botao {
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+    border: none;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.filme-principal a {
+    text-decoration: none;    
+}
+
+.filme-principal .botao:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.filme-principal .botao i{
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box-image {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel {
+    margin-top: 5px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: white;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+footer i {
+    margin-right: 5px;
+}
